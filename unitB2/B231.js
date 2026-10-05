@@ -65,6 +65,15 @@ function keyPressed(){
 		if(key === 'x'){
 			fillColor = color(random(0,255),random(0,255),random(0,255));
 		}
+		
+	}
+	
+}
+
+
+function keyReleased(){
+	if(choice >= 4){
+		
 		if(key === 'c'){
       fillColor = color(random(0,255),random(0,255),random(0,255));
     }

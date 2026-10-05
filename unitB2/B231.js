@@ -42,6 +42,9 @@ function draw() {
 				if(key === 'r'){
       fillColor = color(random(0,255),random(0,255),random(0,255));
     }
+				if(key === 'c'){
+      fillColor = color(random(0,255),random(0,255),random(0,255));
+    }
 				if(choice == 5){
 					if(choice == 5){
 		if(keyCode === UP_ARROW){
